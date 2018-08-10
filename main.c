@@ -13,9 +13,7 @@ void process_files(int, char**);
 void free_string_aray(char**, int);
 
 int main(int argc, char** argv) {    
-    
-    /*test*/
-    
+
     /*file_process("test");*/
     /*file_process("test - copy");*/
     /*process_files(argc, argv);*/
