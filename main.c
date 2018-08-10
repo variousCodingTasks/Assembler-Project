@@ -14,7 +14,8 @@ void free_string_aray(char**, int);
 
 int main(int argc, char** argv) {    
     
-    /*this is a test note*/
+    /*test*/
+    
     /*file_process("test");*/
     /*file_process("test - copy");*/
     /*process_files(argc, argv);*/
