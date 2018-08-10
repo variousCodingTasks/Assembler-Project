@@ -1,0 +1,12 @@
+/*should return EOF in case reached*/
+/*will not read to the next line*/
+static int read_next_string(char *string){
+    int item_read = 0;
+    if (peek_next_char() == '\n')
+        *string = '\0';
+    else {
+        item_read = fscanf(intput_as,"%s",string);
+        skip_whites();        
+    }
+    return item_read;
+}
